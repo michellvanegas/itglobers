@@ -1,7 +1,6 @@
-
 import './App.css';
 import "./App.css";
-import Wall from "./components/Wall";
+import Home from "./views/viewHome";
 import { BrowserRouter,
   Route,
   Routes,
@@ -12,7 +11,7 @@ function App() {
       <div className='App'>
         <BrowserRouter>
           <Routes>
-            <Route path="/" element={<Wall />} />
+            <Route path="/" element={<Home/>} />
           </Routes>
           </BrowserRouter>
 
